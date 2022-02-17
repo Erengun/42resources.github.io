@@ -76,7 +76,7 @@ Kodumuzun son hali şu şekilde.
 ```python
 	fd = open("test.txt", "w")
 	for i in range(1000):
-	fd.write(f"satır numarası : {i}\n")
+		fd.write(f"satır numarası : {i}\n")
 	fd.close()
 ```
 
